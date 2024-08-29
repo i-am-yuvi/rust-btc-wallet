@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+bdk = { version = "^0.10", default-features = false, features = [
+    "all-keys",
+    "key-value-db",
+    "rpc",
+] }
+dirs-next = "2.0.0"
+dotenv = "0.15.0"
